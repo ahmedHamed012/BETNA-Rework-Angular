@@ -1,0 +1,1135 @@
+<section class="hero-sec-container d-flex">
+  <div class="hero-overlay">
+    <div class="container">
+      <p>
+        <img src="assets/imgs/logo.png" /> is your friend that can help you ! ..
+      </p>
+      <p>Let's Take Care About Your Home :)</p>
+    </div>
+    <div class="buttons d-flex flex-column flex-md-row gap-2">
+      <p-button icon="pi pi-angle-double-right" label="Get Started"></p-button>
+      <p-button icon="pi pi-user-plus" label="Register Now"></p-button>
+    </div>
+    <div class="card w-auto quick-search"></div>
+  </div>
+</section>
+<section class="quick-search">
+  <div
+    class="p-3 services d-flex flex-column flex-sm-column flex-md-row justify-content-center align-items-center"
+  >
+    <div class="w-100">
+      <p-dropdown
+        [options]="services"
+        placeholder="Select Service"
+        optionLabel="name"
+      >
+        <ng-template pTemplate="dropdownicon">
+          <i class="pi pi-bolt"></i>
+        </ng-template>
+      </p-dropdown>
+    </div>
+    <div class="w-100">
+      <p-dropdown
+        [options]="services"
+        placeholder="Select Rate"
+        optionLabel="name"
+      >
+        <ng-template pTemplate="dropdownicon">
+          <i class="pi pi-star"></i>
+        </ng-template>
+      </p-dropdown>
+    </div>
+    <div class="w-100">
+      <p-dropdown
+        [options]="services"
+        placeholder="Select Availability Date"
+        optionLabel="name"
+      >
+        <ng-template pTemplate="dropdownicon">
+          <i class="pi pi-calendar"></i>
+        </ng-template>
+      </p-dropdown>
+    </div>
+    <div class="w-100">
+      <p-button
+        class="search-btn"
+        icon="pi pi-search"
+        label="Search"
+      ></p-button>
+    </div>
+  </div>
+</section>
+<section class="second-sec">
+  <div class="container">
+    <div class="sec-title">
+      <p class="h1 mt-3">Services</p>
+    </div>
+    <div class="services-cards row py-5 gap-3">
+      <div class="col d-flex justify-content-center">
+        <div class="service">
+          <div class="h-75 d-flex">
+            <div class="service-icon d-flex w-100">
+              <div class="icon-container">
+                <span>Electronic Service</span>
+                <img src="assets/imgs/flash.png" width="300" height="300" />
+              </div>
+            </div>
+          </div>
+          <div class="h-25 d-flex">
+            <div class="service-details d-flex flex-column">
+              <div class="detail d-flex mt-2">
+                <div class="container d-flex gap-2">
+                  <i class="pi pi-users"></i>
+                  <span>+500 Workers</span>
+                </div>
+              </div>
+              <div class="detail d-flex mt-2">
+                <div class="container d-flex gap-2">
+                  <i class="pi pi-money-bill"></i>
+                  <span>Save Your Money</span>
+                </div>
+              </div>
+              <div class="detail d-flex mt-2">
+                <div class="container d-flex gap-2">
+                  <i class="pi pi-clock"></i>
+                  <span>Fast Deliver</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="service-button d-flex justify-content-center align-items-center"
+            >
+              <p-button
+                label="View"
+                icon="pi pi-angle-double-right"
+                iconPos="right"
+              ></p-button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <div class="service">
+          <div class="h-75 d-flex">
+            <div class="service-icon d-flex w-100">
+              <div class="icon-container">
+                <span>Painting Service</span>
+                <img
+                  src="assets/imgs/paint-roller.png"
+                  width="250"
+                  height="250"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="h-25 d-flex">
+            <div class="service-details d-flex flex-column">
+              <div class="detail d-flex mt-2">
+                <div class="container d-flex gap-2">
+                  <i class="pi pi-users"></i>
+                  <span>+500 Workers</span>
+                </div>
+              </div>
+              <div class="detail d-flex mt-2">
+                <div class="container d-flex gap-2">
+                  <i class="pi pi-money-bill"></i>
+                  <span>Save Your Money</span>
+                </div>
+              </div>
+              <div class="detail d-flex mt-2">
+                <div class="container d-flex gap-2">
+                  <i class="pi pi-clock"></i>
+                  <span>Fast Deliver</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="service-button d-flex justify-content-center align-items-center"
+            >
+              <p-button
+                label="View"
+                icon="pi pi-angle-double-right"
+                iconPos="right"
+              ></p-button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <div class="service">
+          <div class="h-75 d-flex">
+            <div class="service-icon d-flex w-100">
+              <div class="icon-container">
+                <span>Plumping Service</span>
+                <img
+                  src="assets/imgs/plumbing-maintenance.png"
+                  width="300"
+                  height="300"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="h-25 d-flex">
+            <div class="service-details d-flex flex-column">
+              <div class="detail d-flex mt-2">
+                <div class="container d-flex gap-2">
+                  <i class="pi pi-users"></i>
+                  <span>+500 Workers</span>
+                </div>
+              </div>
+              <div class="detail d-flex mt-2">
+                <div class="container d-flex gap-2">
+                  <i class="pi pi-money-bill"></i>
+                  <span>Save Your Money</span>
+                </div>
+              </div>
+              <div class="detail d-flex mt-2">
+                <div class="container d-flex gap-2">
+                  <i class="pi pi-clock"></i>
+                  <span>Fast Deliver</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="service-button d-flex justify-content-center align-items-center"
+            >
+              <p-button
+                label="View"
+                icon="pi pi-angle-double-right"
+                iconPos="right"
+              ></p-button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <div class="service">
+          <div class="h-75 d-flex">
+            <div class="service-icon d-flex w-100">
+              <div class="icon-container">
+                <span>Cleaning Service</span>
+                <img src="assets/imgs/cleaning.png" width="300" height="300" />
+              </div>
+            </div>
+          </div>
+          <div class="h-25 d-flex">
+            <div class="service-details d-flex flex-column">
+              <div class="detail d-flex mt-2">
+                <div class="container d-flex gap-2">
+                  <i class="pi pi-users"></i>
+                  <span>+500 Workers</span>
+                </div>
+              </div>
+              <div class="detail d-flex mt-2">
+                <div class="container d-flex gap-2">
+                  <i class="pi pi-money-bill"></i>
+                  <span>Save Your Money</span>
+                </div>
+              </div>
+              <div class="detail d-flex mt-2">
+                <div class="container d-flex gap-2">
+                  <i class="pi pi-clock"></i>
+                  <span>Fast Deliver</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="service-button d-flex justify-content-center align-items-center"
+            >
+              <p-button
+                label="View"
+                icon="pi pi-angle-double-right"
+                iconPos="right"
+              ></p-button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="third-sec">
+  <div class="container">
+    <div class="row">
+      <div
+        class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="d-flex">
+          <p class="sec-3-p">
+            We are all here working for your comfort and providing a service
+            that suits you...
+          </p>
+        </div>
+        <div class="d-flex justify-content-end w-100">
+          <p-button
+            class="sec-3-btn"
+            label="Register Now"
+            icon="pi pi-user-plus"
+            iconPos="left"
+          ></p-button>
+        </div>
+      </div>
+      <div class="col">
+        <img src="assets/imgs/service.jpg" class="w-100" height="auto" alt="" />
+      </div>
+    </div>
+  </div>
+</section>
+<section class="fourth-sec d-flex flex-column flex-md-row">
+  <div class="women-workers">
+    <div class="overlay d-flex flex-column">
+      <div class="sec-4-icon">
+        <svg
+          version="1.0"
+          xmlns="http://www.w3.org/2000/svg"
+          width="512.000000pt"
+          height="512.000000pt"
+          viewBox="0 0 512.000000 512.000000"
+          preserveAspectRatio="xMidYMid meet"
+        >
+          <g
+            transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+            fill="#FFF"
+            stroke="none"
+          >
+            <path
+              d="M1770 4953 c-600 -64 -1109 -474 -1293 -1043 -69 -212 -72 -243 -72
+-840 0 -533 0 -535 23 -610 95 -302 348 -511 651 -536 l78 -7 -13 -38 c-8 -21
+-16 -56 -20 -77 l-6 -40 -112 -4 c-94 -4 -119 -9 -167 -31 -105 -50 -182 -158
+-195 -270 -6 -55 99 -1038 116 -1091 13 -39 13 -46 -5 -46 -9 0 -27 -11 -40
+-25 -33 -32 -33 -78 0 -110 l24 -25 1189 0 c1180 0 1188 0 1210 20 12 11 24
+31 28 44 8 35 -21 86 -55 92 -28 6 -28 6 -15 47 7 23 38 273 69 554 62 564 62
+565 8 665 -34 62 -90 113 -162 146 -48 23 -73 27 -172 30 l-117 4 -6 39 c-4
+22 -12 57 -20 78 l-13 38 78 7 c303 25 556 234 651 536 23 75 23 77 23 610 0
+597 -3 628 -72 840 -77 238 -187 415 -372 601 -258 257 -541 395 -901 439 -80
+9 -244 11 -320 3z m-129 -1426 c93 -80 228 -118 345 -98 75 14 166 56 218 102
+l36 31 29 -21 c17 -12 56 -34 88 -49 51 -24 70 -27 158 -26 78 0 112 5 153 21
+l54 22 -4 -257 c-6 -298 -15 -350 -95 -505 -38 -75 -64 -109 -143 -187 -78
+-79 -112 -105 -187 -143 -311 -160 -667 -113 -914 120 -83 79 -125 134 -172
+229 -71 139 -79 188 -84 481 l-5 262 53 -21 c40 -16 77 -22 144 -22 104 -1
+149 10 225 58 30 19 57 34 58 35 2 1 21 -14 43 -32z m-681 -327 l0 -80 -45 0
+c-58 0 -91 16 -106 51 -9 22 -9 36 0 58 15 36 43 49 104 50 l47 1 0 -80z
+m2034 69 c35 -16 52 -61 37 -98 -15 -35 -48 -51 -106 -51 l-45 0 0 80 0 80 45
+0 c24 0 55 -5 69 -11z m-914 -1159 c0 -79 -32 -138 -90 -167 -24 -13 -56 -23
+-70 -23 -14 0 -46 10 -70 23 -58 29 -90 88 -90 167 l0 55 160 0 160 0 0 -55z
+m-445 -172 c36 -74 102 -133 177 -159 l53 -18 -293 -1 -294 0 7 33 c20 91 93
+170 185 198 14 4 50 8 80 8 l55 0 30 -61z m781 34 c68 -35 123 -106 139 -179
+l7 -33 -294 0 -293 1 53 18 c76 26 141 85 177 160 l30 63 71 -5 c43 -3 87 -13
+110 -25z m-402 -971 c26 -27 31 -39 31 -81 0 -42 -5 -54 -30 -80 -100 -99
+-259 20 -188 141 39 66 131 75 187 20z"
+            />
+            <path
+              d="M1435 3271 c-45 -20 -70 -60 -70 -112 0 -42 5 -53 33 -81 28 -28 39
+-33 82 -33 43 0 54 5 82 33 28 28 33 39 33 82 0 42 -5 54 -31 81 -33 33 -92
+46 -129 30z"
+            />
+            <path
+              d="M2315 3271 c-45 -20 -70 -60 -70 -112 0 -42 5 -53 33 -81 28 -28 39
+-33 82 -33 43 0 54 5 82 33 28 28 33 39 33 82 0 42 -5 54 -31 81 -33 33 -92
+46 -129 30z"
+            />
+            <path
+              d="M3945 4935 c-24 -23 -25 -28 -25 -175 0 -147 1 -152 25 -175 15 -16
+36 -25 55 -25 19 0 40 9 55 25 24 23 25 28 25 175 0 147 -1 152 -25 175 -15
+16 -36 25 -55 25 -19 0 -40 -9 -55 -25z"
+            />
+            <path
+              d="M3305 4695 c-16 -16 -25 -35 -25 -57 0 -27 15 -47 103 -135 88 -88
+108 -103 135 -103 44 0 82 38 82 82 0 27 -15 47 -103 135 -88 88 -108 103
+-135 103 -22 0 -41 -9 -57 -25z"
+            />
+            <path
+              d="M4503 4617 c-88 -88 -103 -108 -103 -135 0 -44 38 -82 82 -82 27 0
+47 15 135 103 88 88 103 108 103 135 0 22 -9 41 -25 57 -16 16 -35 25 -57 25
+-27 0 -47 -15 -135 -103z"
+            />
+            <path
+              d="M3881 4384 c-215 -58 -361 -251 -361 -479 0 -148 46 -253 162 -366
+l78 -76 0 -68 c0 -99 16 -142 77 -202 28 -29 59 -53 67 -53 10 0 16 -9 16 -25
+0 -36 42 -75 80 -75 38 0 80 39 80 75 0 16 6 25 16 25 8 0 39 24 67 53 61 60
+77 103 77 202 l0 68 78 76 c43 42 90 99 105 127 56 106 72 251 42 367 -67 259
+-333 419 -584 351z m253 -178 c66 -30 122 -87 155 -156 22 -47 26 -69 26 -145
+-1 -117 -23 -168 -107 -247 l-61 -58 -147 0 -147 0 -61 58 c-84 79 -106 130
+-107 247 0 76 4 98 26 145 77 162 262 231 423 156z"
+            />
+            <path
+              d="M3545 1015 l-25 -24 0 -288 c1 -225 4 -297 15 -328 20 -54 19 -55
+-15 -55 -70 0 -105 -86 -55 -135 l24 -25 471 0 471 0 24 25 c50 49 15 135 -56
+135 -24 0 -30 3 -25 16 3 9 9 27 12 40 6 22 11 24 66 24 91 0 136 17 193 75
+98 97 101 222 8 325 -51 57 -108 80 -195 80 l-58 0 0 55 c0 46 -4 60 -25 80
+l-24 25 -391 0 -391 0 -24 -25z m990 -320 c16 -15 25 -36 25 -55 0 -51 -38
+-80 -105 -80 l-55 0 0 80 0 80 55 0 c46 0 60 -4 80 -25z"
+            />
+          </g>
+        </svg>
+      </div>
+      <p class="h3 text-center text-light">Women Workers</p>
+      <p class="text-center px-2 text-light">
+        In order to provide comfort and safety to all our customers, we have
+        provided you with a female labor service
+      </p>
+    </div>
+  </div>
+  <div class="fast-arrive">
+    <div class="overlay d-flex flex-column">
+      <div class="sec-4-icon">
+        <svg
+          version="1.0"
+          xmlns="http://www.w3.org/2000/svg"
+          width="512.000000pt"
+          height="512.000000pt"
+          viewBox="0 0 512.000000 512.000000"
+          preserveAspectRatio="xMidYMid meet"
+        >
+          <g
+            transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+            fill="#FFF"
+            stroke="none"
+          >
+            <path
+              d="M2330 5105 c-880 -108 -1569 -811 -1659 -1695 -39 -379 49 -725 321
+-1262 254 -502 730 -1199 1246 -1823 l99 -120 -316 -5 c-174 -3 -324 -9 -334
+-14 -21 -10 -47 -57 -47 -85 0 -34 23 -72 51 -87 42 -21 1696 -21 1738 0 46
+24 62 80 39 131 -24 53 -41 55 -378 55 l-312 0 53 63 c98 117 328 406 432 544
+408 543 676 961 893 1395 95 189 108 233 84 279 -26 48 -118 61 -152 21 -8 -9
+-56 -100 -106 -202 -265 -538 -726 -1212 -1299 -1903 -63 -75 -118 -137 -123
+-137 -19 0 -463 557 -670 840 -558 765 -894 1392 -1001 1869 -67 299 -8 694
+151 1010 346 690 1109 1059 1870 905 174 -35 416 -134 568 -230 441 -281 734
+-768 778 -1294 10 -126 33 -160 109 -160 41 0 80 32 91 74 9 39 -13 234 -42
+365 -76 341 -243 646 -493 905 -414 426 -1001 633 -1591 561z"
+            />
+            <path
+              d="M2382 4609 c-175 -24 -360 -86 -507 -170 -129 -74 -219 -145 -326
+-257 -187 -195 -303 -414 -361 -685 -31 -146 -31 -408 0 -554 62 -287 178
+-499 387 -708 209 -209 421 -325 708 -387 146 -31 408 -31 554 0 564 121 987
+548 1100 1109 25 123 25 403 0 526 -87 434 -370 802 -762 992 -128 62 -172 78
+-315 111 -121 28 -355 40 -478 23z m358 -203 c367 -56 695 -286 877 -616 42
+-76 80 -176 111 -289 23 -87 25 -114 25 -281 0 -167 -2 -194 -25 -281 -66
+-245 -168 -420 -340 -585 -324 -310 -786 -413 -1214 -269 -291 98 -546 322
+-688 602 -87 175 -119 317 -119 533 0 176 10 242 59 388 134 403 510 725 924
+792 41 6 82 13 90 15 44 8 217 3 300 -9z"
+            />
+            <path
+              d="M3036 3738 c-19 -18 -148 -194 -286 -390 -139 -197 -256 -358 -260
+-358 -5 0 -99 100 -210 223 -111 122 -214 230 -229 239 -47 32 -105 18 -134
+-32 -23 -38 -21 -71 6 -109 40 -57 501 -558 529 -575 31 -19 58 -20 92 -5 15
+7 140 175 329 443 167 237 309 441 316 453 33 65 -18 143 -94 143 -15 0 -39
+-13 -59 -32z"
+            />
+            <path
+              d="M4239 2921 c-49 -49 -35 -126 28 -156 85 -41 169 43 128 128 -30 63
+-107 77 -156 28z"
+            />
+          </g>
+        </svg>
+      </div>
+      <p class="h3 text-center text-light">Fast Deliver</p>
+      <p class="text-center px-2 text-light">
+        BETNA application is distinguished by its rapid response due to
+        providing the closest workers to your governorate.
+      </p>
+    </div>
+  </div>
+  <div class="feedback-service">
+    <div class="overlay d-flex flex-column">
+      <div class="sec-4-icon">
+        <svg
+          version="1.0"
+          xmlns="http://www.w3.org/2000/svg"
+          width="512.000000pt"
+          height="512.000000pt"
+          viewBox="0 0 512.000000 512.000000"
+          preserveAspectRatio="xMidYMid meet"
+        >
+          <g
+            transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+            fill="#FFF"
+            stroke="none"
+          >
+            <path
+              d="M467 4949 c-99 -23 -212 -111 -258 -200 -49 -98 -49 -83 -49 -1062
+l0 -918 25 -24 c13 -14 36 -25 51 -25 16 0 141 64 311 160 l284 160 1887 0
+c1542 0 1896 3 1937 14 147 39 252 144 291 291 20 73 20 1237 0 1310 -39 147
+-144 252 -291 291 -40 11 -278 14 -1232 14 l-1182 0 -27 -23 c-37 -33 -37 -81
+0 -114 l27 -23 1182 0 1182 0 50 -24 c60 -28 97 -66 124 -126 20 -44 21 -63
+21 -650 0 -587 -1 -606 -21 -650 -27 -60 -64 -98 -124 -126 l-50 -24 -1908 0
+-1909 0 -230 -130 c-127 -72 -232 -130 -234 -130 -2 0 -4 375 -4 833 0 815 1
+833 21 877 27 60 64 98 124 126 l50 24 558 0 558 0 24 25 c33 32 33 78 0 110
+l-24 25 -563 -1 c-310 -1 -580 -5 -601 -10z"
+            />
+            <path
+              d="M1865 4935 c-16 -15 -25 -36 -25 -55 0 -19 9 -40 25 -55 21 -22 33
+-25 95 -25 62 0 74 3 95 25 16 15 25 36 25 55 0 19 -9 40 -25 55 -21 22 -33
+25 -95 25 -62 0 -74 -3 -95 -25z"
+            />
+            <path
+              d="M1152 4543 c-11 -10 -49 -79 -83 -153 -34 -74 -67 -140 -73 -146 -6
+-6 -76 -21 -155 -32 -152 -23 -187 -37 -197 -76 -10 -42 6 -68 119 -184 l111
+-113 -23 -142 c-13 -78 -25 -154 -28 -169 -4 -21 2 -34 25 -58 17 -16 41 -30
+53 -30 12 0 85 34 161 76 l138 76 138 -76 c76 -42 148 -76 160 -76 33 0 75 42
+76 76 0 16 -10 95 -24 176 l-24 147 111 114 c113 115 129 141 119 183 -10 39
+-46 53 -199 77 -81 12 -150 27 -155 32 -5 6 -37 71 -71 145 -66 143 -87 170
+-131 170 -15 0 -37 -8 -48 -17z m90 -340 c20 -43 44 -86 56 -96 16 -15 157
+-47 206 -47 5 0 -23 -33 -62 -73 -39 -41 -74 -85 -77 -98 -3 -14 1 -67 10
+-118 9 -51 15 -95 13 -96 -2 -2 -37 17 -78 41 -43 25 -88 43 -107 43 -19 1
+-61 -16 -109 -43 -44 -25 -80 -43 -82 -41 -2 1 4 45 13 96 9 51 13 104 10 118
+-3 13 -38 57 -77 98 -39 40 -67 73 -62 73 49 0 190 32 206 47 12 10 36 53 56
+96 19 42 38 77 42 77 4 0 23 -35 42 -77z"
+            />
+            <path
+              d="M2512 4543 c-11 -10 -49 -79 -83 -153 -34 -74 -67 -140 -73 -146 -6
+-6 -76 -21 -155 -32 -152 -23 -187 -37 -197 -76 -10 -42 6 -68 119 -184 l111
+-113 -23 -142 c-13 -78 -25 -154 -28 -169 -4 -21 2 -34 25 -58 17 -16 41 -30
+53 -30 12 0 85 34 161 76 l138 76 138 -76 c76 -42 148 -76 160 -76 33 0 75 42
+76 76 0 16 -10 95 -24 176 l-24 147 111 114 c113 115 129 141 119 183 -10 39
+-46 53 -199 77 -81 12 -150 27 -155 32 -5 6 -37 71 -71 145 -66 143 -87 170
+-131 170 -15 0 -37 -8 -48 -17z m90 -340 c20 -43 44 -86 56 -96 16 -15 157
+-47 206 -47 5 0 -23 -33 -62 -73 -39 -41 -74 -85 -77 -98 -3 -14 1 -67 10
+-118 9 -51 15 -95 13 -96 -2 -2 -37 17 -78 41 -43 25 -88 43 -107 43 -19 1
+-61 -16 -109 -43 -44 -25 -80 -43 -82 -41 -2 1 4 45 13 96 9 51 13 104 10 118
+-3 13 -38 57 -77 98 -39 40 -67 73 -62 73 49 0 190 32 206 47 12 10 36 53 56
+96 19 42 38 77 42 77 4 0 23 -35 42 -77z"
+            />
+            <path
+              d="M3872 4543 c-11 -10 -49 -79 -83 -153 -34 -74 -67 -140 -73 -146 -6
+-6 -76 -21 -155 -32 -152 -23 -187 -37 -197 -76 -10 -42 6 -68 119 -184 l111
+-113 -23 -142 c-13 -78 -25 -154 -28 -169 -4 -21 2 -34 25 -58 17 -16 41 -30
+53 -30 12 0 85 34 161 76 l138 76 138 -76 c76 -42 148 -76 160 -76 33 0 75 42
+76 76 0 16 -10 95 -24 176 l-24 147 111 114 c113 115 129 141 119 183 -10 39
+-46 53 -199 77 -81 12 -150 27 -155 32 -5 6 -37 71 -71 145 -66 143 -87 170
+-131 170 -15 0 -37 -8 -48 -17z m90 -340 c20 -43 44 -86 56 -96 16 -15 157
+-47 206 -47 5 0 -23 -33 -62 -73 -39 -41 -74 -85 -77 -98 -3 -14 1 -67 10
+-118 9 -51 15 -95 13 -96 -2 -2 -37 17 -78 41 -43 25 -88 43 -107 43 -19 1
+-61 -16 -109 -43 -44 -25 -80 -43 -82 -41 -2 1 4 45 13 96 9 51 13 104 10 118
+-3 13 -38 57 -77 98 -39 40 -67 73 -62 73 49 0 190 32 206 47 12 10 36 53 56
+96 19 42 38 77 42 77 4 0 23 -35 42 -77z"
+            />
+            <path
+              d="M4620 2849 c-34 -15 -183 -157 -624 -597 -318 -317 -584 -590 -591
+-607 -7 -16 -25 -96 -41 -177 -24 -126 -26 -150 -15 -171 26 -49 49 -50 225
+-16 l161 32 588 586 c338 336 597 602 608 624 62 119 14 268 -104 323 -66 30
+-144 32 -207 3z m159 -165 c31 -39 26 -69 -18 -117 l-40 -42 -55 55 -56 54 37
+38 c47 49 100 53 132 12z m-648 -748 l-474 -474 -64 -12 c-35 -7 -66 -11 -68
+-9 -2 2 2 33 10 68 l13 64 474 474 473 473 55 -55 55 -55 -474 -474z"
+            />
+            <path
+              d="M467 2389 c-99 -23 -212 -111 -258 -200 -48 -95 -49 -106 -49 -749 0
+-643 1 -654 49 -749 29 -56 106 -133 162 -162 92 -47 118 -49 582 -49 l438 0
+24 25 c16 15 25 36 25 55 0 19 -9 40 -25 55 l-24 25 -438 0 -438 0 -50 24
+c-60 28 -97 66 -124 126 -20 44 -21 63 -21 650 0 587 1 606 21 650 27 60 64
+98 124 126 l50 24 1678 0 1678 0 24 25 c33 32 33 78 0 110 l-24 25 -1683 -1
+c-937 -1 -1700 -5 -1721 -10z"
+            />
+            <path
+              d="M4759 2251 c-30 -24 -31 -77 -2 -117 44 -61 44 -69 41 -932 l-3 -822
+-232 130 -231 130 -1181 0 -1182 0 -24 -25 c-33 -32 -33 -78 0 -110 l24 -25
+1161 0 1160 0 284 -160 c167 -94 295 -160 311 -160 14 0 37 11 51 25 l24 25
+-2 942 -3 943 -28 60 c-51 109 -110 143 -168 96z"
+            />
+            <path
+              d="M665 1975 c-16 -15 -25 -36 -25 -55 0 -19 9 -40 25 -55 23 -24 28
+-25 173 -25 136 0 152 2 176 21 37 29 37 89 0 118 -24 19 -40 21 -176 21 -145
+0 -150 -1 -173 -25z"
+            />
+            <path
+              d="M1324 1977 c-20 -17 -27 -33 -27 -57 0 -24 7 -40 27 -57 l27 -23
+1020 0 1020 0 24 25 c16 15 25 36 25 55 0 19 -9 40 -25 55 l-24 25 -1020 0
+-1020 0 -27 -23z"
+            />
+            <path
+              d="M665 1655 c-16 -15 -25 -36 -25 -55 0 -19 9 -40 25 -55 l24 -25 759
+0 c753 0 760 0 786 21 37 29 37 89 0 118 -26 21 -33 21 -786 21 l-759 0 -24
+-25z"
+            />
+            <path
+              d="M2373 1660 c-12 -10 -24 -29 -28 -40 -10 -30 12 -75 41 -89 17 -7
+141 -11 395 -11 l370 0 24 25 c16 15 25 36 25 55 0 19 -9 40 -25 55 l-24 25
+-379 0 c-362 0 -379 -1 -399 -20z"
+            />
+            <path
+              d="M665 1335 c-16 -15 -25 -36 -25 -55 0 -19 9 -40 25 -55 l24 -25 1231
+0 1231 0 24 25 c33 32 33 78 0 110 l-24 25 -1231 0 -1231 0 -24 -25z"
+            />
+            <path
+              d="M665 1015 c-16 -15 -25 -36 -25 -55 0 -19 9 -40 25 -55 l24 -25 471
+0 471 0 24 25 c33 32 33 78 0 110 l-24 25 -471 0 -471 0 -24 -25z"
+            />
+            <path
+              d="M1844 1017 c-36 -32 -36 -83 1 -114 l26 -23 1288 0 c1288 0 1288 0
+1315 21 20 16 26 29 26 59 0 30 -6 43 -26 59 -27 21 -27 21 -1315 21 l-1288 0
+-27 -23z"
+            />
+            <path
+              d="M1563 620 c-29 -27 -37 -56 -23 -89 16 -39 48 -51 140 -51 92 0 124
+12 140 51 14 33 6 62 -23 89 -18 17 -35 20 -117 20 -82 0 -99 -3 -117 -20z"
+            />
+          </g>
+        </svg>
+      </div>
+      <p class="h3 text-center text-light">Full Time Support</p>
+      <p class="text-center px-2 text-light">
+        The customer is followed up after the service he requested is completed
+        to provide the best possible service
+      </p>
+    </div>
+  </div>
+</section>
+<section class="fifth-sec d-flex">
+  <div class="container">
+    <div class="join-our-team d-flex">
+      <div class="row">
+        <div
+          class="col-7 d-flex flex-column justify-content-center align-items-start gap-2"
+        >
+          <span class="join-us-title">Join BETNA Team Now !</span>
+          <span class="join-us-subtitle">
+            Baytna provides its users with an employment service by registering
+            as a worker to become a member of the Baytna team and enjoy the
+            benefits that those responsible for the Baytna application provide
+            to workers. Register your data now.
+          </span>
+          <p-button
+            class="sec-3-btn"
+            label="Register Now"
+            icon="pi pi-user-plus"
+            iconPos="left"
+          ></p-button>
+        </div>
+        <div class="col">
+          <img src="assets/imgs/joinus.png" class="w-100" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path
+    fill="#2f4ac5"
+    fill-opacity="1"
+    d="M0,96L120,96C240,96,480,96,720,128C960,160,1200,224,1320,256L1440,288L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
+  ></path>
+</svg>
+<section class="reviews-comments-sec">
+  <div class="sec-title">
+    <p class="h1 mt-3">What Our Clients Say !</p>
+  </div>
+
+  <div class="comments">
+    <swiper-container
+      slides-per-view="1"
+      speed="500"
+      loop="true"
+      navigation="true"
+      css-mode="true"
+      pagination="true"
+    >
+      <swiper-slide class="d-flex justify-content-center py-5">
+        <div class="comment-container col-6 p-3 mt-2">
+          <div class="row d-flex align-items-center">
+            <div class="col-2">
+              <img src="assets/imgs/avatar.png" class="user-avatar" />
+            </div>
+            <div class="col-8">
+              <p class="userName m-0">Ahmed Hamed</p>
+              <p class="worker-name m-0">Mohamed Ali - Electrical</p>
+              <p class="raqting m-0">
+                <i class="pi pi-star-fill px-1"></i>
+                <i class="pi pi-star-fill px-1"></i>
+                <i class="pi pi-star-fill px-1"></i>
+                <i class="pi pi-star-fill px-1"></i>
+                <i class="pi pi-star-fill px-1"></i>
+              </p>
+            </div>
+            <div class="col d-flex align-items-center">
+              <div class="quote-container">
+                <fa-icon [icon]="faQuoteLeft" [size]="'lg'"></fa-icon>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex">
+            <div class="col">
+              <p class="comment-text py-2">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Inventore facilis quaerat iusto distinctio, eaque esse doloribus
+                harum, dolorum, necessitatibus possimus ullam repudiandae
+                quisquam aliquam atque non totam et sequi tempora.
+              </p>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide class="d-flex justify-content-center py-5">
+        <div class="comment-container col-6 p-3 mt-2">
+          <div class="row d-flex align-items-center">
+            <div class="col-2">
+              <img src="assets/imgs/avatar.png" class="user-avatar" />
+            </div>
+            <div class="col-8">
+              <p class="userName m-0">Ahmed Hamed</p>
+              <p class="worker-name m-0">Mohamed Ali - Electrical</p>
+              <p class="raqting m-0">
+                <i class="pi pi-star-fill px-1"></i>
+                <i class="pi pi-star-fill px-1"></i>
+                <i class="pi pi-star-fill px-1"></i>
+                <i class="pi pi-star-fill px-1"></i>
+                <i class="pi pi-star-fill px-1"></i>
+              </p>
+            </div>
+            <div class="col d-flex align-items-center">
+              <div class="quote-container">
+                <fa-icon [icon]="faQuoteLeft" [size]="'lg'"></fa-icon>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex">
+            <div class="col">
+              <p class="comment-text py-2">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Inventore facilis quaerat iusto distinctio, eaque esse doloribus
+                harum, dolorum, necessitatibus possimus ullam repudiandae
+                quisquam aliquam atque non totam et sequi tempora.
+              </p>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+    </swiper-container>
+  </div>
+</section>
+<section class="contact-us-sec">
+  <div class="sec-title">
+    <p class="h1 mt-3">Contact Us</p>
+  </div>
+  <div class="container my-4">
+    <div class="contact-us-container">
+      <div class="row contact-us-card">
+        <div class="col-4">
+          <div class="img-overlay">
+            <div class="logo text-center">
+              <img src="assets/imgs/betnaAr.png" width="auto" height="100" />
+            </div>
+            <div
+              class="contact-info-details d-flex flex-column h-100 justify-content-center"
+            >
+              <div class="container">
+                <div
+                  class="address-contact d-flex gap-2 align-items-center px-3"
+                >
+                  <i class="pi pi-map-marker"></i>
+                  <span>5<sup>th</sup>Settlements - Cairo - Egypt</span>
+                </div>
+                <div
+                  class="address-contact d-flex gap-2 align-items-center my-2 px-3"
+                >
+                  <i class="pi pi-phone"></i>
+                  <span>+20 0111 0081 282</span>
+                </div>
+                <div
+                  class="address-contact d-flex gap-2 align-items-center px-3"
+                >
+                  <i class="pi pi-envelope"></i>
+                  <span
+                    >contact<span>{{ "&#64;" }}</span
+                    >betnaeg.com</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <p class="h3 mt-4">Send Us Message!</p>
+          <div class="contact-form d-flex flex-column">
+            <div class="row mt-3">
+              <div class="col">
+                <p class="form-label">Your Name</p>
+                <input
+                  type="text"
+                  class="w-100"
+                  placeholder="Enter Your Full Name Ex.Ahmed Hamed Ali"
+                  pInputText
+                />
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <p class="form-label">Your Email</p>
+                <input
+                  type="text"
+                  class="w-100"
+                  placeholder="Enter Your Mail Ex. xxxx@xxxx.xxx"
+                  pInputText
+                />
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <p class="form-label">Description</p>
+                <textarea
+                  rows="5"
+                  cols="30"
+                  pInputTextarea
+                  placeholder="Description Of The Message ..."
+                  class="w-100"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row my-4">
+              <div class="col d-flex justify-content-end">
+                <p-button
+                  icon="pi pi-plus"
+                  class="submit-message-btn"
+                  label="Submit Message"
+                ></p-button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="top-workers">
+  <div class="sec-title">
+    <p class="h1 mt-3">Top Rated Workers</p>
+  </div>
+  <div class="comments">
+    <swiper-container
+      slides-per-view="3.5"
+      speed="500"
+      loop="true"
+      navigation="true"
+      css-mode="true"
+      pagination="true"
+    >
+      <swiper-slide class="d-flex justify-content-center py-5">
+        <div class="worker-card d-flex flex-column">
+          <div class="worker-image">
+            <span class="job">{{ "electric" | uppercase }}</span>
+            <img class="user-avatar" src="assets/imgs/avatar.png" />
+            <div class="likes-comments">
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-comment px-2"
+                  style="font-size: 0.75rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-heart-fill px-2"
+                  style="font-size: 0.85rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="worker-details h-50 d-flex flex-column mt-5 justify-content-center align-items-center"
+          >
+            <p class="worker-name m-0">Ahmed Hamed Ali</p>
+            <p class="job-name m-0">Electrical-Expert</p>
+            <div class="worker-rating d-flex gap-1">
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star" style="color: #fdc00d"></i>
+            </div>
+            <div class="worker-buttons d-flex gap-2 my-2">
+              <p-button icon="pi pi-info-circle" label="About"></p-button>
+              <p-button icon="pi pi-briefcase" label="Hire Now"></p-button>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide class="d-flex justify-content-center py-5">
+        <div class="worker-card d-flex flex-column">
+          <div class="worker-image">
+            <span class="job">{{ "electric" | uppercase }}</span>
+            <img class="user-avatar" src="assets/imgs/avatar.png" />
+            <div class="likes-comments">
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-comment px-2"
+                  style="font-size: 0.75rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-heart-fill px-2"
+                  style="font-size: 0.85rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="worker-details h-50 d-flex flex-column mt-5 justify-content-center align-items-center"
+          >
+            <p class="worker-name m-0">Ahmed Hamed Ali</p>
+            <p class="job-name m-0">Electrical-Expert</p>
+            <div class="worker-rating d-flex gap-1">
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star" style="color: #fdc00d"></i>
+            </div>
+            <div class="worker-buttons d-flex gap-2 my-2">
+              <p-button icon="pi pi-info-circle" label="About"></p-button>
+              <p-button icon="pi pi-briefcase" label="Hire Now"></p-button>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide class="d-flex justify-content-center py-5">
+        <div class="worker-card d-flex flex-column">
+          <div class="worker-image">
+            <span class="job">{{ "electric" | uppercase }}</span>
+            <img class="user-avatar" src="assets/imgs/avatar.png" />
+            <div class="likes-comments">
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-comment px-2"
+                  style="font-size: 0.75rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-heart-fill px-2"
+                  style="font-size: 0.85rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="worker-details h-50 d-flex flex-column mt-5 justify-content-center align-items-center"
+          >
+            <p class="worker-name m-0">Ahmed Hamed Ali</p>
+            <p class="job-name m-0">Electrical-Expert</p>
+            <div class="worker-rating d-flex gap-1">
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star" style="color: #fdc00d"></i>
+            </div>
+            <div class="worker-buttons d-flex gap-2 my-2">
+              <p-button icon="pi pi-info-circle" label="About"></p-button>
+              <p-button icon="pi pi-briefcase" label="Hire Now"></p-button>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide class="d-flex justify-content-center py-5">
+        <div class="worker-card d-flex flex-column">
+          <div class="worker-image">
+            <span class="job">{{ "electric" | uppercase }}</span>
+            <img class="user-avatar" src="assets/imgs/avatar.png" />
+            <div class="likes-comments">
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-comment px-2"
+                  style="font-size: 0.75rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-heart-fill px-2"
+                  style="font-size: 0.85rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="worker-details h-50 d-flex flex-column mt-5 justify-content-center align-items-center"
+          >
+            <p class="worker-name m-0">Ahmed Hamed Ali</p>
+            <p class="job-name m-0">Electrical-Expert</p>
+            <div class="worker-rating d-flex gap-1">
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star" style="color: #fdc00d"></i>
+            </div>
+            <div class="worker-buttons d-flex gap-2 my-2">
+              <p-button icon="pi pi-info-circle" label="About"></p-button>
+              <p-button icon="pi pi-briefcase" label="Hire Now"></p-button>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide class="d-flex justify-content-center py-5">
+        <div class="worker-card d-flex flex-column">
+          <div class="worker-image">
+            <span class="job">{{ "electric" | uppercase }}</span>
+            <img class="user-avatar" src="assets/imgs/avatar.png" />
+            <div class="likes-comments">
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-comment px-2"
+                  style="font-size: 0.75rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-heart-fill px-2"
+                  style="font-size: 0.85rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="worker-details h-50 d-flex flex-column mt-5 justify-content-center align-items-center"
+          >
+            <p class="worker-name m-0">Ahmed Hamed Ali</p>
+            <p class="job-name m-0">Electrical-Expert</p>
+            <div class="worker-rating d-flex gap-1">
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star" style="color: #fdc00d"></i>
+            </div>
+            <div class="worker-buttons d-flex gap-2 my-2">
+              <p-button icon="pi pi-info-circle" label="About"></p-button>
+              <p-button icon="pi pi-briefcase" label="Hire Now"></p-button>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide class="d-flex justify-content-center py-5">
+        <div class="worker-card d-flex flex-column">
+          <div class="worker-image">
+            <span class="job">{{ "electric" | uppercase }}</span>
+            <img class="user-avatar" src="assets/imgs/avatar.png" />
+            <div class="likes-comments">
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-comment px-2"
+                  style="font-size: 0.75rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-heart-fill px-2"
+                  style="font-size: 0.85rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="worker-details h-50 d-flex flex-column mt-5 justify-content-center align-items-center"
+          >
+            <p class="worker-name m-0">Ahmed Hamed Ali</p>
+            <p class="job-name m-0">Electrical-Expert</p>
+            <div class="worker-rating d-flex gap-1">
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star" style="color: #fdc00d"></i>
+            </div>
+            <div class="worker-buttons d-flex gap-2 my-2">
+              <p-button icon="pi pi-info-circle" label="About"></p-button>
+              <p-button icon="pi pi-briefcase" label="Hire Now"></p-button>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide class="d-flex justify-content-center py-5">
+        <div class="worker-card d-flex flex-column">
+          <div class="worker-image">
+            <span class="job">{{ "electric" | uppercase }}</span>
+            <img class="user-avatar" src="assets/imgs/avatar.png" />
+            <div class="likes-comments">
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-comment px-2"
+                  style="font-size: 0.75rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-heart-fill px-2"
+                  style="font-size: 0.85rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="worker-details h-50 d-flex flex-column mt-5 justify-content-center align-items-center"
+          >
+            <p class="worker-name m-0">Ahmed Hamed Ali</p>
+            <p class="job-name m-0">Electrical-Expert</p>
+            <div class="worker-rating d-flex gap-1">
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star" style="color: #fdc00d"></i>
+            </div>
+            <div class="worker-buttons d-flex gap-2 my-2">
+              <p-button icon="pi pi-info-circle" label="About"></p-button>
+              <p-button icon="pi pi-briefcase" label="Hire Now"></p-button>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide class="d-flex justify-content-center py-5">
+        <div class="worker-card d-flex flex-column">
+          <div class="worker-image">
+            <span class="job">{{ "electric" | uppercase }}</span>
+            <img class="user-avatar" src="assets/imgs/avatar.png" />
+            <div class="likes-comments">
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-comment px-2"
+                  style="font-size: 0.75rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+              <div class="comments-count d-flex align-items-center">
+                <i
+                  class="pi pi-heart-fill px-2"
+                  style="font-size: 0.85rem; font-weight: 300"
+                ></i>
+                <span>2.1k</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="worker-details h-50 d-flex flex-column mt-5 justify-content-center align-items-center"
+          >
+            <p class="worker-name m-0">Ahmed Hamed Ali</p>
+            <p class="job-name m-0">Electrical-Expert</p>
+            <div class="worker-rating d-flex gap-1">
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star-fill" style="color: #fdc00d"></i>
+              <i class="pi pi-star" style="color: #fdc00d"></i>
+            </div>
+            <div class="worker-buttons d-flex gap-2 my-2">
+              <p-button icon="pi pi-info-circle" label="About"></p-button>
+              <p-button icon="pi pi-briefcase" label="Hire Now"></p-button>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+    </swiper-container>
+  </div>
+</section>

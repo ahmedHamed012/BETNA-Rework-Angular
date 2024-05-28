@@ -1,0 +1,83 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <img src="assets/imgs/betnaAr.png" alt="BETNA" width="120" height="40" />
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse justify-content-center align-items-center navbar-collapse"
+      id="navbarSupportedContent"
+    >
+      <ul class="navbar-nav d-flex gap-3 mb-2 mb-lg-0">
+        <li class="nav-item">
+          <p-button icon="pi pi-home" label="Home" [text]="true"></p-button>
+          <!-- <a class="nav-link active" aria-current="page" href="#"><i class="pi pi-home px-1"></i>Home</a> -->
+        </li>
+        <li class="nav-item">
+          <p-button
+            icon="pi pi-wrench"
+            label="Services"
+            [text]="true"
+          ></p-button>
+        </li>
+        <li class="nav-item">
+          <p-button icon="pi pi-phone" label="Contact" [text]="true"></p-button>
+        </li>
+        <li class="nav-item">
+          <p-button
+            icon="pi pi-truck"
+            label="My Orders"
+            [text]="true"
+          ></p-button>
+        </li>
+        <li class="nav-item">
+          <p-button
+            icon="pi pi-wallet"
+            label="My Wallet"
+            [text]="true"
+          ></p-button>
+        </li>
+        <li class="nav-item">
+          <p-button
+            icon="pi pi-globe"
+            label="English(US)"
+            [text]="true"
+          ></p-button>
+        </li>
+        <li class="nav-item">
+          <i
+            class="pi pi-shopping-cart text-3xl"
+            style="color: white"
+            pBadge
+            value="2"
+          ></i>
+        </li>
+        <li class="nav-item">
+          <i
+            class="pi pi-bell text-3xl"
+            style="color: white"
+            pBadge
+            value="2"
+          ></i>
+        </li>
+        <li class="nav-item">
+          <p-avatar
+            image="https://primefaces.org/cdn/primeng/images/demo/avatar/asiyajavayant.png"
+            styleClass="mx-2"
+            size="normal"
+            shape="circle"
+            class="d-flex"
+          ></p-avatar>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
