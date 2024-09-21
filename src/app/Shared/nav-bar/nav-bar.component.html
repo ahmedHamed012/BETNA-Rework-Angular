@@ -1,6 +1,15 @@
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <img src="assets/imgs/betnaAr.png" alt="BETNA" width="120" height="40" />
+    <img
+      src="assets/imgs/betna-logo.png"
+      alt="BETNA"
+      width="auto"
+      height="50"
+    />
+    <div class="brand-title d-flex flex-column mx-3">
+      <a class="logo-brand">بيــتنا</a>
+      <span>للخدمات المنزلية</span>
+    </div>
     <button
       class="navbar-toggler"
       type="button"
@@ -18,10 +27,30 @@
     >
       <ul class="navbar-nav d-flex gap-3 mb-2 mb-lg-0">
         <li class="nav-item">
-          <p-button icon="pi pi-home" label="Home" [text]="true"></p-button>
-          <!-- <a class="nav-link active" aria-current="page" href="#"><i class="pi pi-home px-1"></i>Home</a> -->
+          <!-- <p-button icon="pi pi-home" label="Home" [text]="true"></p-button> -->
+          <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
         </li>
         <li class="nav-item">
+          <!-- <p-button icon="pi pi-home" label="Home" [text]="true"></p-button> -->
+          <a class="nav-link active" aria-current="page" href="#"
+            >أكتشف التخصصات</a
+          >
+        </li>
+        <li class="nav-item">
+          <!-- <p-button icon="pi pi-home" label="Home" [text]="true"></p-button> -->
+          <a class="nav-link active" aria-current="page" href="#"
+            >قائمة الصنايعية</a
+          >
+        </li>
+        <li class="nav-item">
+          <!-- <p-button icon="pi pi-home" label="Home" [text]="true"></p-button> -->
+          <a class="nav-link active" aria-current="page" href="#">عن الموقع</a>
+        </li>
+        <li class="nav-item">
+          <!-- <p-button icon="pi pi-home" label="Home" [text]="true"></p-button> -->
+          <a class="nav-link active" aria-current="page" href="#">تواصل معنا</a>
+        </li>
+        <!-- <li class="nav-item">
           <p-button
             icon="pi pi-wrench"
             label="Services"
@@ -76,6 +105,17 @@
             shape="circle"
             class="d-flex"
           ></p-avatar>
+        </li> -->
+      </ul>
+      <ul class="navbar-nav sign-buttons gap-2 me-auto">
+        <li class="nav-item">
+          <p-button label="سجل كصنايعي" class="sign-as-worker"></p-button>
+        </li>
+        <li class="nav-item">
+          <p-button label="تسجيل الدخول" class="sign-in"></p-button>
+        </li>
+        <li class="nav-item">
+          <p-button label="إنشاء حساب" class="register"></p-button>
         </li>
       </ul>
     </div>

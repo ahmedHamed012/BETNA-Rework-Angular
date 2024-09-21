@@ -1,6 +1,6 @@
 @import "./../../../styles.scss";
 nav {
-  background-color: var(--mainColor);
+  background-color: #eee;
 }
 ::ng-deep {
   input.p-inputtext.p-component.p-element {
@@ -10,43 +10,123 @@ nav {
   div.p-avatar.p-component.p-avatar-image.p-avatar-circle {
     border: 1px solid #eee;
   }
-  span.p-button-icon {
-    font-size: 15px;
-    color: white;
-    font-weight: normal;
-  }
-  span.p-button-label {
-    font-family: "Poppins";
-    font-size: 14px;
-    color: white;
-    font-weight: normal;
-  }
-  button.p-button {
-    padding: 5px 15px;
-    border-radius: 20px;
-    &:focus {
-      background: white;
-      box-shadow: none;
-      span.p-button-icon {
-        color: #4087ed;
-      }
-      span.p-button-label {
-        color: #4087ed;
-      }
-    }
-  }
-  span.p-badge.p-component.p-badge-no-gutter{
+}
+span.p-badge.p-component.p-badge-no-gutter {
   background-color: #ef4444;
-  font-size: 0.60rem;
+  font-size: 0.6rem;
   min-width: 1.1rem;
   height: 1.1rem;
   line-height: 1.1rem;
-  }
 }
+
 li.nav-item {
   display: flex;
   align-items: center;
+  a.nav-link {
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: "Cairo";
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      color: #3f87ed;
+    }
+  }
 }
 // .navbar-collapse {
 //     flex-grow: 0;
 // }
+div.brand-title {
+  a.logo-brand {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #101625;
+    font-weight: 900;
+    font-family: "Cairo";
+  }
+  span {
+    &:last-child {
+      font-size: 0.7rem;
+      color: #10162591;
+      font-weight: 600;
+    }
+  }
+}
+::ng-deep {
+  ul.navbar-nav.sign-buttons {
+    li.nav-item:first-child {
+      p-button.p-element.sign-as-worker {
+        button.p-button {
+          border-radius: 7px;
+          background-color: transparent;
+          border: 1px solid rgba(128, 128, 128, 0.185);
+          span.p-button-label {
+            font-family: "Cairo";
+            font-size: 0.8rem;
+            color: black;
+            font-weight: bold;
+          }
+          &:focus {
+            background: white;
+            box-shadow: none;
+            span.p-button-icon {
+              color: #4087ed;
+            }
+            span.p-button-label {
+              color: #4087ed;
+            }
+          }
+        }
+      }
+    }
+    li.nav-item {
+      p-button.p-element.sign-in {
+        button.p-button {
+          border-radius: 7px;
+          background-color: white;
+          border: 1px solid #3f87ed;
+          span.p-button-label {
+            font-family: "Cairo";
+            font-size: 0.8rem;
+            color: #3f87ed;
+            font-weight: bold;
+          }
+          &:focus {
+            background: white;
+            box-shadow: none;
+            span.p-button-icon {
+              color: #4087ed;
+            }
+            span.p-button-label {
+              color: #4087ed;
+            }
+          }
+        }
+      }
+    }
+    li.nav-item:last-child {
+      p-button.p-element.register {
+        button.p-button {
+          border-radius: 7px;
+          background-color: #3f87ed;
+          border: none;
+          span.p-button-label {
+            font-family: "Cairo";
+            font-size: 0.8rem;
+            color: white;
+            font-weight: bold;
+          }
+          &:focus {
+            background: white;
+            box-shadow: none;
+            span.p-button-icon {
+              color: #4087ed;
+            }
+            span.p-button-label {
+              color: #4087ed;
+            }
+          }
+        }
+      }
+    }
+  }
+}
