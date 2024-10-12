@@ -2,15 +2,6 @@
 nav {
   background-color: #eee;
 }
-::ng-deep {
-  input.p-inputtext.p-component.p-element {
-    height: 40px;
-    width: 25rem;
-  }
-  div.p-avatar.p-component.p-avatar-image.p-avatar-circle {
-    border: 1px solid #eee;
-  }
-}
 span.p-badge.p-component.p-badge-no-gutter {
   background-color: #ef4444;
   font-size: 0.6rem;

@@ -1,0 +1,57 @@
+section.login-container {
+  div.login-card {
+    border: 1px solid #eee;
+    border-right: 8px solid #3f87ed;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    div.img-part {
+      background-image: url("../../../../assets/imgs/login-img.PNG");
+      background-size: cover;
+      position: relative;
+      div.overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, #3f87ed, #0000005e 60%);
+      }
+    }
+  }
+}
+div.icon-title {
+  span.title {
+    font-family: "Cairo";
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+}
+::ng-deep input.p-inputtext.p-component.p-element {
+  border-radius: 0;
+  font-family: "Cairo";
+}
+::ng-deep p-inputgroupaddon.p-element.p-inputgroup-addon {
+  border-radius: 0;
+  border: 1px solid #d1d5db;
+}
+::ng-deep div.p-element.p-togglebutton.p-button.p-component {
+  border-radius: 0;
+}
+::ng-deep div.p-button:focus {
+  box-shadow: none;
+}
+button {
+  background-color: #3f87ed;
+  color: white;
+  font-family: "Cairo";
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+span.input-label {
+  font-family: "Cairo";
+  font-weight: 600;
+}
+span,
+a {
+  font-family: "Cairo";
+}

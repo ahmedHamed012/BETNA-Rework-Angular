@@ -17,10 +17,19 @@ import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import { InputTextareaModule } from 'primeng/inputtextarea';
 import { DividerModule } from 'primeng/divider';
+import { NavBarComponent } from '../../Shared/nav-bar/nav-bar.component';
+import { FooterComponent } from "../../Shared/footer/footer.component";
 @Component({
   selector: 'app-home-page',
   standalone: true,
-  imports: [ButtonModule, DividerModule, ReactiveFormsModule, InputTextModule],
+  imports: [
+    ButtonModule,
+    DividerModule,
+    ReactiveFormsModule,
+    InputTextModule,
+    NavBarComponent,
+    FooterComponent
+],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.scss',
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
